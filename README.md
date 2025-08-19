@@ -35,12 +35,13 @@ Selasa 19 Agustus 2025
 - Simple Queue mampu melimit Upload, download secara terpisah atau Total(Upload+download) sekaligus dalam satu rule menggunakan tab Total.  
 - Setiap rule pada Simple Queue dapat berdiri sendiri ataupun dapat juga disusun dalam sebuah hierarki dengan mengarahkan Parent ke rule lain.  
 - cukup sederhana dan mudah dipahami.  
+-  simple queue khusus untuk bandwidth lokal pak. Targetnya network lokal, dst nya juga network lokal.  
   ![](IMAGES/simple.PNG)  
   
 **2. Queue Tree**  
 - Pendefinisian target yang akan dilimit pada Queue Tree tidak dilakukan langsung saat penambahan rule Queue namun dilakukan dengan melakukan marking paket data menggunakan Firewall Mangle.    
 - Setiap service pada jaringan dapat diberikan kecepatan yang berbeda.  
-  ![](IMAGES/pohon.PNG)
+  ![](IMAGES/pohon.PNG)  
 
 # Kesimpulan  
   Simple Queue pada Mikrotik merupakan metode bandwidth management paling sederhana yang mudah digunakan dan dipahami. Simple Queue cocok untuk manajemen bandwidth dasar dan cepat, sedangkan Queue Tree lebih tepat digunakan untuk kebutuhan kontrol lebih detail.  
