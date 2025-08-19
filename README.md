@@ -34,12 +34,12 @@ Selasa 19 Agustus 2025
 **1. Simple Queue**   
 - Simple Queue mampu melimit Upload, download secara terpisah atau Total(Upload+download) sekaligus dalam satu rule menggunakan tab Total.  
 - Setiap rule pada Simple Queue dapat berdiri sendiri ataupun dapat juga disusun dalam sebuah hierarki dengan mengarahkan Parent ke rule lain.  
-- cukup sederhana dan mudah dipahami.
+- cukup sederhana dan mudah dipahami.  
   ![](IMAGES/simple.PNG)  
   
 **2. Queue Tree**  
 - Pendefinisian target yang akan dilimit pada Queue Tree tidak dilakukan langsung saat penambahan rule Queue namun dilakukan dengan melakukan marking paket data menggunakan Firewall Mangle.    
-- Setiap service pada jaringan dapat diberikan kecepatan yang berbeda.
+- Setiap service pada jaringan dapat diberikan kecepatan yang berbeda.  
   ![](IMAGES/pohon.PNG)
 
 # Kesimpulan  
